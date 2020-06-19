@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Git Command</title>
+</head>
+
+<body>
+  <header>
+    <h1>My Favorite Git Command</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Git Commit</h2>
+      <p>Git commit command is the main function for saving changes to local repository safely.
+        Commit <br>takes a snapshot of the project and treats it as a version.</p>
+      <p>Simply put,commit is the term used for saving changes.</p>
+    </section>
+
+    <section>
+      <h3>Note:</h3>
+      <ul>
+        <li>
+          <p>Git <strong>does not add changes</strong> to a commit automatically. You have to specify <br>
+            which file and changes need to be saved before running the Git commit command.</p>
+        </li>
+
+        <li>The process of specifying which file and changes need to be saved before running the Git commit <br>
+          command is known as <strong>staging</strong> </li>
+
+        <li>
+          <p>The <strong>commit command</strong> does not save changes in remote servers, only in the local
+            repository of Git.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Staging</h3>
+      <p>Simply put, staging is a <strong>phase</strong> where you <strong>decide</strong> which changes
+        you want to include in the next commit</p>
+      <ul>
+        <li>
+          <p>The Git <strong>add</strong> command moves changes to the staging area.</p>
+        </li>
+        <li>
+          <p>To add a specific file,i.e <strong>example.txt</strong> file to the staging area, use the command
+            <strong>Git add example.txt</strong></p>
+        </li>
+        <img src="images/exampl.jpg" alt="example-image">
+        <li>
+          <p>To add <strong>all changes</strong> to the staging area, use the command
+            <strong>Git add -A</strong></p>
+        </li>
+        <img src="images/git-add.jpg" alt="git-add">
+      </ul>
+    </section>
+
+    <section>
+      <h3>Committing Changes</h3>
+      <p>Git <strong>commit</strong> command takes a <strong>snapshot</strong> representing the staged
+        changes.</p>
+      <ul>
+        <li>
+          <p>To commit changes, use the command <strong>git commit -m"< message>"</strong></p>
+        </li>
+        <li>
+          <p>The <strong>-m</strong> flag is a message,describing the type of <strong>commit</strong></p>
+        </li>
+        <img src="images/commit.jpg" alt="commit-image">
+        <li>Feel free to run the command <strong>git status</strong> to know your commit status</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Conclussion</h3>
+      <p>The Git <strong>committing</strong> process requires <strong>several steps</strong>:
+        moving changes to the staging area and saving them with the <strong>commit</strong> command.</p>
+        <p>All thanks to git,now i can sleep knowing that git got my back</p>
+    </section>
+  </main>
+
+</body>
+
+</html>
